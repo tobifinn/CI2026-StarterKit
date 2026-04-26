@@ -1,0 +1,3 @@
+# @package _global_
+input_path: data/train_data/val_in_aimip_region2.zarr
+output_path: data/forecasts/${exp_name}/val_aimip_region2.nc

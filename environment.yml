@@ -1,0 +1,16 @@
+name: ci26_starter_kit
+channels:
+  - conda-forge
+
+dependencies:
+  - python<3.13
+  - pip
+  - setuptools
+  - xesmf
+  - xarray
+  - zarr<3
+  - dask
+  - numba
+  - numpy
+  - pip:
+    - uv
