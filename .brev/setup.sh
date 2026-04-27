@@ -65,6 +65,9 @@ grep -vE "^torch(vision|audio)?($|[>=<! ])" "$REPO_DIR/requirements.txt" > "$_re
 conda run -n "$ENV_NAME" uv pip install --python "$ENV_PYTHON" -r "$_req_tmp"
 rm -f "$_req_tmp"
 
+conda run -n "$ENV_NAME" pip uninstall llvmlite numba
+conda run -n "$ENV_NAME" pip install --no-cache-dir llvmlite numba
+
 # ── 5. Install starter kit in editable mode ───────────────────────────────────
 echo "[setup] Installing starter kit package..."
 conda run -n "$ENV_NAME" pip install -e "$REPO_DIR/"
