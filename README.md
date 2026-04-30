@@ -2,8 +2,7 @@ Climate informatics 26 Hackathon Starter Kit
 ============================================
 
 [![Launch on Brev](https://brev-assets.s3.us-west-1.amazonaws.com/nv-lb-dark.svg)](https://brev.nvidia.com/launchable/deploy?launchableID=env-3CtrQ1MUnbnFvqugOrn3to4rqRi)
-[![Submit Solution](https://img.shields.io/badge/Submit%20Solution-0A66C2?style=for-the-badge&logo=gradio&logoColor=white)](https://submission-7rre8iitk.brevlab.com/)
-[![Live Leaderboard](https://img.shields.io/badge/Live%20Leaderboard-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)](https://tobifinn-ci2026-hackathon-leaderboard.hf.space/)
+[![Leaderboard](https://img.shields.io/badge/Live%20Leaderboard-FFD21E?style=for-the-badge&logo=huggingface&logoColor=000)](https://tobifinn-ci2026-hackathon-leaderboard.hf.space/)
 [![Dataset](https://img.shields.io/badge/Dataset-CI2026Hackathon-FF9D00?style=for-the-badge&logo=huggingface&logoColor=000)](https://huggingface.co/datasets/tobifinn/CI2026Hackathon)
 
 
@@ -334,8 +333,8 @@ While you can run the forecast suite for the test set by `+suite=test`, you
 cannot run the `evaluate.py` script over the test set as the target files are
 missing.
 
-Submission
-----------
+Submission (no longer working as the Brev instance is shut down)
+----------------------------------------------------------------
 
 There are two different ways to submit a solution to the leaderboard: using the
 `submit.py` script or manual submission. For a submission, you need a
